@@ -1,0 +1,13 @@
+# Week 2 Challenge - 02 Advanced CSS Portfolio
+
+## Setup
+1. Initialised a Local Repository
+2. Created a Remote Repository on Github
+3. Pulled Remote Repository from Github
+
+## Development Environment
+1. MacOSX Monterey
+2. git version 2.37.1 (Apple Git-137.1)
+3. VSCode Version: 1.78.2 (Universal)
+4. Forklift 3.5.8 in place of Finder to prevent ._ files in the Repository
+

@@ -15,3 +15,4 @@
 1. Created Folder Structure, index.html and styles.css
 2. Added Content Structure and starting CSS
 3. Added images folder to assets and built header (Brand and NavBar)
+4 Style Banner 

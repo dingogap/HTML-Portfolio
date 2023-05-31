@@ -8,12 +8,13 @@
 /* Reset default styling */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   /*  margin: 0; */
+    /* padding: 0; */
 }
 
 /* Body Styling */
 body {
+    margin: 0px;
     background-color: var(--colour-light-grey);
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,3 +63,31 @@ nav a {
     text-decoration: none;
     margin-left: 3px;
 }
+
+section {
+    display: flex;
+    margin: 0px 0px 30px 15px;
+  }
+  
+  section:first-of-type {
+    margin-left: 0px;
+  }
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    background-image: url("/assets/images/background.jpg");
+    height: 150px;
+  }
+  
+  .banner h2 {
+    padding: 15px 25px 50px 25px;
+    margin-top: 65px;
+    margin-right: 25px;
+  
+    background-color: var(--colour-light-teal);
+    font-size: 2em;
+  }
+
+

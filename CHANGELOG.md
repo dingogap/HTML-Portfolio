@@ -18,3 +18,4 @@
 4. Styled Banner
 5. Styled Asides and Articles
     1.Added About Me text - lorem ipsum
+6. Made path to CSS & Images relative

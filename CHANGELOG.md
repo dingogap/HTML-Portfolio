@@ -17,5 +17,6 @@
 3. Added images folder to assets and built header (Brand and NavBar)
 4. Styled Banner
 5. Styled Asides and Articles
-    1.Added About Me text - lorem ipsum
+    1. Added About Me text - lorem ipsum
+    2. Added Resume text - lorem ipsum
 6. Made path to CSS & Images relative

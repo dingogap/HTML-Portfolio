@@ -89,5 +89,28 @@ section {
     background-color: var(--colour-light-teal);
     font-size: 2em;
   }
+  
+  aside {
+    width: 25%;
+    border-right: 5px solid var(--colour-grey);
+  }
+  
+  aside h2 {
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: right;
+    color: var(--colour-grey);
+    margin-right: 15px;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 95px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
 
 

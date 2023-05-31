@@ -22,3 +22,4 @@
     3. Added Portfolio and Contact Details
 6. Made path to CSS & Images relative
 7. Updated comments and styled Copyright Notice
+8. Added Alt Tags to images

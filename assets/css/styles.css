@@ -1,0 +1,11 @@
+/* Define CSS Variables */
+:root {
+    --colour-grey: #373938;
+    --colour-light-grey: #efeff7;
+    --colour-light-teal: #9dd1d2;
+}
+
+/* Reset default styling */
+* {
+    box-sizing: border-box;
+}

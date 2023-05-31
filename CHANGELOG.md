@@ -11,3 +11,6 @@
 3. VSCode Version: 1.78.2 (Universal)
 4. Forklift 3.5.8 in place of Finder to prevent ._ files in the Repository
 
+## Process
+1. Created Folder Structure, index.html and styles.css
+2. Added Content Structure

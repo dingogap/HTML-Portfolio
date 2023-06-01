@@ -24,10 +24,11 @@ My Portfolio is a landing page. It contains
 ## Navigation
 Clicking a NavBar Element scrolls the webpage to the appropriate article in the Main Content area.
 
+## Responsive Features
+Media Queries and CSS allow the webapge to adjust to deivces of different sizes. The webpage works on devices ranging from a desktop/laptop through phones & tablets (both portrait and landscape). 
+
 ## Changelog
 The development history is recorded in the [Changelog](./CHANGELOG.md).
-
-
 
 ## Resources Used
 1. Bootcamp Materials - Lesson Material fro Week 1 & Week 2

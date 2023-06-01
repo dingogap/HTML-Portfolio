@@ -8,7 +8,7 @@
 /* Reset default styling */
 * {
   box-sizing: border-box;
-  /*  margin: 0; */
+   margin: 0;
   /* padding: 0; */
 }
 
@@ -281,12 +281,34 @@ footer {
 
 /* Adjust NavBar to fit screen width 360px - 815px */
 @media screen and (min-width: 360px) and (max-width: 815px) {
+  
+  header {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colour-grey);
+  }
+  
+  .brand {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 12px 75px;
+    font-size: 1.75rem;
+  }
+  
+  .brand img {
+    width: 20%;
+  }
   nav {
-    padding: 0px 5px 0px 5px;
+    padding: 15px 5px 20px 5px;
+  }
+
+  nav ul {
+    padding: 0px;
   }
 
   nav a {
-    padding: 10px 5px 5px 5px;
     font-size: 0.85em;
   }
 
@@ -294,12 +316,12 @@ footer {
     font-size: 1.5em;
   }
   .banner {
-    height: 100px;
+    height: 80px;
   }
 
   .banner h2 {
     margin-top: -20px;
-    font-size: 1.5em;
+    font-size: .8em;
   }
   aside h2 {
     font-size: 0.8em;
@@ -314,20 +336,12 @@ footer {
     width: 100%;
   }
   .portfolio .flex-item:nth-child(even) {
-    border: 5px solid var(--colour-light-teal);
-    flex-basis: auto;
-    flex-shrink: 1;
     width: 100%;
-    margin-right: 10px;
   }
 
   .portfolio .flex-item:nth-child(odd) {
-    border: 5px solid var(--colour-light-teal);
-    flex-basis: auto;
-    flex-shrink: 1;
     width: 100%;
     margin-left: 0px;
-    margin-right: 10px;
   }
 
   .portfolio .flex-item:first-child {
@@ -344,11 +358,12 @@ footer {
     font-size: 0.85em;
     padding: 0px 5px;
     margin-bottom: 10px;
-    text-align: center;
   }
-  
+
   footer {
     margin-right: 30px;
     margin-top: -15px;
   }
+
+
 }

@@ -25,4 +25,5 @@
 8. Added Alt Tags to images
 9. Updated README.md
 10. Added Media Queries for screen sizes down to 947px wide
-11.Added Media Queries for screens down to 360px wide 
+11. Added Media Queries for screens down to 360px wide
+12. Adjusted Media Queries to reduce size of Portfolio Titles & reduce size of Subtitle Banner

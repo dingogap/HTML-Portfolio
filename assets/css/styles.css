@@ -310,18 +310,20 @@ footer {
 
   nav a {
     font-size: 0.85em;
-    
+
   }
 
   .brand {
     font-size: 1.5em;
   }
   .banner {
+   
     height: 80px;
   }
 
   .banner h2 {
-    margin-top: -20px;
+    padding: 10px 25px 10px 25px;
+    margin-top: -10px;
     font-size: .8em;
   }
   aside h2 {
@@ -343,6 +345,15 @@ footer {
   .portfolio .flex-item:nth-child(odd) {
     width: 100%;
     margin-left: 0px;
+  }
+
+  .text h2 {
+    font-size: 1em;
+  }
+  
+  .text p {
+    font-size: .85em;
+    margin-top: 0px;
   }
 
   .portfolio .flex-item:first-child {

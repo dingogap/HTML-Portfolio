@@ -29,3 +29,4 @@
 12. Adjusted Media Queries to reduce size of Portfolio Titles & reduce size of Subtitle Banner
 13. Added default text color
 14. Corrected styling issue on Portfolio Headings on screens > 815px wide
+15. Updated HTML so Portfolio Websites open in new browser Tab

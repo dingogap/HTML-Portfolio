@@ -30,3 +30,14 @@
 13. Added default text color
 14. Corrected styling issue on Portfolio Headings on screens > 815px wide
 15. Updated HTML so Portfolio Websites open in new browser Tab
+16. Reduced subtitle size
+
+## Comments
+This Challenge is the first time I've attempted to build a webpage from scratch just using HTML and CSS. I can read CSS and work out what it's doing but it's much harder when there's nothing to modify. I found this task hard.
+
+The HTML and CSS for the webpage works but it isn't very elegant. I tried to structure the HTML semantically and make CSS and the Flexbox do the hard work. I arranged the Media Query breakpoints where the layout failed as the viewport reduced. I have more Media Queries than I probably should and they make a lot of changes. 
+
+I certainly know a lot more about CSS and the Flexbox but not enough as I'd like.
+
+As I said, hard and very challenging but it was enjoyable.
+

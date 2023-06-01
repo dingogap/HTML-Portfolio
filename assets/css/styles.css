@@ -302,14 +302,14 @@ footer {
     font-size: 1.5em;
   }
   aside h2 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 5px;
   }
   article {
     flex-direction: column;
     margin-left: 20px;
-    margin-right: 95px;
+    margin-right: 40px;
     flex-wrap: wrap;
     width: 100%;
   }
@@ -320,7 +320,7 @@ footer {
     width: 100%;
     margin-right: 10px;
   }
-  
+
   .portfolio .flex-item:nth-child(odd) {
     border: 5px solid var(--colour-light-teal);
     flex-basis: auto;
@@ -329,10 +329,26 @@ footer {
     margin-left: 0px;
     margin-right: 10px;
   }
-  
+
   .portfolio .flex-item:first-child {
     width: 100%;
     margin-left: 0px;
   }
+
+  .contact-panel {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .contact-panel a {
+    font-size: 0.85em;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
   
+  footer {
+    margin-right: 30px;
+    margin-top: -15px;
+  }
 }

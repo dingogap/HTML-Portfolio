@@ -23,3 +23,4 @@
 6. Made path to CSS & Images relative
 7. Updated comments and styled Copyright Notice
 8. Added Alt Tags to images
+9. Updated README.md

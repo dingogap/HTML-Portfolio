@@ -19,6 +19,7 @@ body {
   background-color: var(--colour-light-grey);
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--colour-grey);
   max-width: 1424px;
 }
 
@@ -38,7 +39,6 @@ header {
   margin-bottom: 15px;
   padding: 12px 12px 12px 75px;
   background-color: var(--colour-light-teal);
-  color: var(--colour-grey);
   font-size: 3rem;
 }
 
@@ -106,7 +106,6 @@ aside h2 {
   font-size: 2em;
   margin-top: 10px;
   text-align: right;
-  color: var(--colour-grey);
   margin-right: 15px;
 }
 
@@ -180,7 +179,7 @@ p:first-of-type {
 }
 
 .text p {
-  margin-top: -10px;
+  /* margin-top: -10px; */
   margin-bottom: 10px;
 }
 
@@ -376,6 +375,5 @@ footer {
     margin-right: 30px;
     margin-top: -15px;
   }
-
 
 }

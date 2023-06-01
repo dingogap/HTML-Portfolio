@@ -78,6 +78,7 @@ section:first-of-type {
 
 /* Style Banner under Header */
 .banner {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   padding: 0 20px;
@@ -86,10 +87,11 @@ section:first-of-type {
 }
 
 .banner h2 {
-  padding: 15px 25px 50px 25px;
-  margin-top: 65px;
+  position: absolute;
+  top: 50%;
+  padding: 15px 25px 15px 25px;
+  margin-top: -10px;
   margin-right: 25px;
-
   background-color: var(--colour-light-teal);
   font-size: 2em;
 }
@@ -216,12 +218,65 @@ footer {
   }
 }
 
-@media screen and (min-width: 947px) and (max-width: 993px) {
+/* Adjust NavBar to fit screen width 963x - 993px */
+@media screen and (min-width: 963px) and (max-width: 993px) {
   nav {
     padding: 0px 20px;
   }
 
   nav a {
     padding: 20px 5px 5px 5px;
-  }  
+  }
+}
+/* Adjust NavBar to fit screen width 947px - 962px */
+@media screen and (min-width: 947px) and (max-width: 962px) {
+  nav {
+    padding: 0px 10px 0px 5px;
+  }
+
+  nav a {
+    padding: 20px 5px 5px 5px;
+  }
+}
+
+/* Adjust NavBar to fit screen width 933px - 946px */
+@media screen and (min-width: 933px) and (max-width: 946px) {
+  nav {
+    padding: 0px 5px 0px 5px;
+  }
+
+  nav a {
+    padding: 10px 5px 5px 5px;
+  }
+}
+
+/* Adjust NavBar to fit screen width 816px - 932px */
+@media screen and (min-width: 816px) and (max-width: 932px) {
+  nav {
+    padding: 0px 5px 0px 5px;
+  }
+
+  nav a {
+    padding: 10px 5px 5px 5px;
+    font-size: 0.85em;
+  }
+
+  .brand {
+    font-size: 1.5em;
+  }
+  .banner {
+    height: 100px;
+  }
+
+  .banner h2 {
+    margin-top: -20px;
+    font-size: 1.5em;
+  }
+  aside h2 {
+    font-size: 1.25em;
+    margin-top: 10px;
+    text-align: right;
+    color: var(--colour-grey);
+    margin-right: 15px;
+  }
 }

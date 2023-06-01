@@ -24,3 +24,4 @@
 7. Updated comments and styled Copyright Notice
 8. Added Alt Tags to images
 9. Updated README.md
+10. Added Media Queries for screen sizes down to 947px wide

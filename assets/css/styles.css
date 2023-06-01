@@ -8,7 +8,7 @@
 /* Reset default styling */
 * {
   box-sizing: border-box;
-   margin: 0;
+  margin: 0;
   /* padding: 0; */
 }
 
@@ -208,6 +208,7 @@ footer {
 
 /* Adjust NavBar to fit screen width 994px - 1113px */
 @media screen and (min-width: 994px) and (max-width: 1113px) {
+  /* NavBar Adjustments */
   nav {
     padding: 0px 35px;
   }
@@ -219,6 +220,7 @@ footer {
 
 /* Adjust NavBar to fit screen width 963x - 993px */
 @media screen and (min-width: 963px) and (max-width: 993px) {
+  /* NavBar Adjustments */
   nav {
     padding: 0px 20px;
   }
@@ -227,8 +229,10 @@ footer {
     padding: 20px 5px 5px 5px;
   }
 }
+
 /* Adjust NavBar to fit screen width 947px - 962px */
 @media screen and (min-width: 947px) and (max-width: 962px) {
+  /* NavBar Adjustments */
   nav {
     padding: 0px 10px 0px 5px;
   }
@@ -240,6 +244,7 @@ footer {
 
 /* Adjust NavBar to fit screen width 933px - 946px */
 @media screen and (min-width: 933px) and (max-width: 946px) {
+  /* NavBar Adjustments */
   nav {
     padding: 0px 5px 0px 5px;
   }
@@ -251,6 +256,7 @@ footer {
 
 /* Adjust NavBar to fit screen width 816px - 932px */
 @media screen and (min-width: 816px) and (max-width: 932px) {
+  /* NavBar Adjustments */
   nav {
     padding: 0px 5px 0px 5px;
   }
@@ -260,9 +266,12 @@ footer {
     font-size: 0.85em;
   }
 
+  /* Branding Adjustments */
   .brand {
     font-size: 1.5em;
   }
+
+  /* Banner Adjustments */
   .banner {
     height: 100px;
   }
@@ -271,6 +280,8 @@ footer {
     margin-top: -20px;
     font-size: 1.5em;
   }
+
+  /* Content Adjustments */
   aside h2 {
     font-size: 1.25em;
     margin-top: 10px;
@@ -280,25 +291,18 @@ footer {
 
 /* Adjust NavBar to fit screen width 360px - 815px */
 @media screen and (min-width: 360px) and (max-width: 815px) {
-  
+  /*   Header Adjustments */
   header {
     flex-direction: column;
     align-items: center;
     background-color: var(--colour-grey);
   }
-  
-  .brand {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 12px 75px;
-    font-size: 1.75rem;
-  }
-  
+
   .brand img {
     width: 20%;
   }
+
+  /* NavBar Adjustments */
   nav {
     padding: 15px 5px 20px 5px;
   }
@@ -309,27 +313,36 @@ footer {
 
   nav a {
     font-size: 0.85em;
-
   }
 
+  /* Branding Adjustments */
   .brand {
+    margin-top: 0px;
+    /* margin-bottom: 15px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 75px;
     font-size: 1.5em;
   }
+
+  /* Banner Adjustments */
   .banner {
-   
     height: 80px;
   }
 
   .banner h2 {
     padding: 10px 25px 10px 25px;
     margin-top: -10px;
-    font-size: .8em;
+    font-size: 0.8em;
   }
+
+  /* Content Adjustments */
   aside h2 {
     font-size: 0.8em;
     margin-top: 10px;
     margin-right: 5px;
   }
+
   article {
     flex-direction: column;
     margin-left: 20px;
@@ -337,6 +350,8 @@ footer {
     flex-wrap: wrap;
     width: 100%;
   }
+
+  /* Portfolio Panel Adjustments */
   .portfolio .flex-item:nth-child(even) {
     width: 100%;
   }
@@ -349,9 +364,9 @@ footer {
   .text h2 {
     font-size: 1em;
   }
-  
+
   .text p {
-    font-size: .85em;
+    font-size: 0.85em;
     margin-top: 0px;
   }
 
@@ -360,6 +375,7 @@ footer {
     margin-left: 0px;
   }
 
+  /* Contact Panel Adjustments */
   .contact-panel {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -371,9 +387,9 @@ footer {
     margin-bottom: 10px;
   }
 
+  /* Footer Adjustments */
   footer {
     margin-right: 30px;
     margin-top: -15px;
   }
-
 }

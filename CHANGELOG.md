@@ -31,7 +31,7 @@
 14. Corrected styling issue on Portfolio Headings on screens > 815px wide
 15. Updated HTML so Portfolio Websites open in new browser Tab
 16. Reduced subtitle size
-
+17. Corrected the ID value for the Work Examples Section so the NavBar Link works correctly - error found during Review.
 ## Comments
 This Challenge is the first time I've attempted to build a webpage from scratch just using HTML and CSS. I can read CSS and work out what it's doing but it's much harder when starting from nothing. I found this task hard.
 

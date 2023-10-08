@@ -39,7 +39,7 @@ The development history is recorded in the [Changelog](./CHANGELOG.md).
 5. [MDM Web Docs - Guidelines for styling CSS Code][def5]
 6. [W3Schools Semantic Elements][def6]
 
-[def1]: https://dingogap.github.io/Medburys-Portfolio/
+[def1]: https://dingogap.github.io/HTML-Portfolio/
 [def2]: https://developer.mozilla.org/en-US/
 [def3]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 [def4]: https://flexboxfroggy.com/
